@@ -1,0 +1,553 @@
+/* Universal styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: verdana, tahoma, sans-serif;
+}
+/* HTML style */
+html {
+    font-size: 62.5%;
+}
+/* style navigation bar */
+.header {
+    position: sticky;
+    top: 0;
+    max-width: 100%;
+    height: 70px;
+    background-color: #fff;
+    z-index: 2;
+    box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
+}
+.ddlogo {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.signin {
+    position: absolute;
+    top: 20px;
+    right: 150px;
+}
+.signup {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+.signin:link, .signin:visited {
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #f00;
+    color: #fff;
+}
+.signin:hover, .signin:active {
+    border-radius: 20px;
+    background-color: ghostwhite;
+    color: #000;
+}
+.signup:link, .signup:visited {
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #f00;
+    color: #fff;
+}
+.signup:hover, .signup:active {
+    border-radius: 20px;
+    background-color: ghostwhite;
+    color: #000;
+}
+/* introduction section styling */
+div.section0 {
+    position: relative;
+    max-width: 100%;
+    height: 600px;
+    background-image: url('https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.psec0 {
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    font-size: 3.5rem;
+    color: #fff;   
+}
+div.inputsec0 {
+    position: absolute;
+    top: 55%;
+    left: 39%;  
+}
+#inputsec0 {
+    border-radius: 20px;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-color: #fff;
+    background-color: #fff;
+}
+div.asec0 {
+    position: absolute;
+    top: 65%;
+    left: 45%;  
+}
+.addybtn:link, .addybtn:visited {
+    border-radius: 20px;
+    border-color: #fff;
+    font-size: 1.2rem;
+    padding: 7px 25px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+/* section 1 style */
+div.section1 {
+    position: relative;
+    max-width: 100%;
+    height: 500px;
+    background-color: #fff;
+    font-size: 1.6rem;
+}
+div.sec1a {
+    position: absolute;
+    width: 25%;
+    top: 20%;
+    left: 200px;
+    padding: 30px;
+}
+div.sec1b {
+    position: absolute;
+    width: 20%;
+    top: 20%;
+    left: 600px;
+    padding: 30px;
+}
+div.sec1c {
+    position: absolute;
+    width: 20%;
+    top: 20%;
+    right: 100px;
+    padding: 30px;
+}
+.sec1p {
+    color: #404040;
+}
+.sec1btn {
+    text-decoration: none;
+    border-radius: 20px;
+    color: #f00;
+    background-color: #f8f8f8;
+}
+/* section 2 style */
+div.section2 {
+    position: relative;
+    max-width: 100%;
+    height: 600px;
+    background-color: #fff;
+    font-size: 1.6rem;
+}
+div.sec2a {
+    position: absolute;
+    width: 30%;
+    top: 35%;
+    left: 200px;
+    padding: 30px;
+}
+div.sec2b {
+    position: absolute;
+    width: 50%;
+    top: 15%;
+    right: 100px;
+    padding: 30px;
+}
+.sec2btn {
+    text-decoration: none;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #f00;
+    padding: 10px;
+}
+/*  section 3 style */
+div.section3 {
+    position: relative;
+    max-width: 100%;
+    height: 480px;
+    background-color: rgba(255, 219, 213, 0.4);
+    font-size: 1.6rem;
+}
+div.sec3a {
+    position: absolute;
+    width: 50%;
+    top: 5%;
+    left: 200px;
+    padding: 30px;
+}
+div.sec3b {
+    position: absolute;
+    width: 25%;
+    top: 25%;
+    right: 100px;
+    padding: 30px;
+}
+.sec3btn {
+    text-decoration: none;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #f00;
+    padding: 10px;
+}
+/* section 4 style */
+div.section4 {
+    position: relative;
+    max-width: 100%;
+    height: 500px;
+    background-image: url('images/background2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.6rem;
+}
+div.sec4a {
+    background-color: rgba(30, 30, 30, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+div.sec4b {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+/* section 5 */
+div.section5 {
+    position: relative;
+    max-width: 100%;
+    height: 480px;
+    background-color: #fff;
+    font-size: 1.6rem;
+}
+div.sec5a {
+    position: absolute;
+    width: 30%;
+    top: 35%;
+    left: 200px;
+    padding: 30px;
+}
+div.sec5b {
+    position: absolute;
+    width: 50%;
+    top: 1%;
+    right: 100px;
+    padding: 30px;
+}
+/* section 6 */
+div.section6 {
+    position: relative;
+    max-width: 100%;
+    height: 1500px;
+    background-color: rgba(255, 219, 213, 0.4);
+}
+div.sec6a {
+    position: absolute;
+    width: 50%;
+    top: 1%;
+    left: 400px;
+    padding: 30px;
+    font-size: 2rem;
+    text-align: center;
+}
+div.sec6b {
+    position: absolute;
+    width: 100%;
+    top: 9%;
+    left: 200px;
+    padding: 30px;
+}
+div.sec6c {
+    position: absolute;
+    width: 30%;
+    top: 38%;
+    left: 300px;
+    padding: 30px;
+    font-size: 1.6rem;
+}
+div.sec6d {
+    position: absolute;
+    width: 30%;
+    top: 38%;
+    right: 200px;
+    padding: 30px;
+    font-size: 1.6rem;
+}
+div.sec6e {
+    position: absolute;
+    width: 100%;
+    top: 54%;
+    left: 200px;
+    padding: 30px;
+}
+div.sec6f {
+    position: absolute;
+    width: 30%;
+    top: 83%;
+    left: 300px;
+    padding: 30px;
+    font-size: 1.6rem;
+}
+div.sec6g {
+    position: absolute;
+    width: 30%;
+    top: 83%;
+    right: 200px;
+    padding: 30px;
+    font-size: 1.6rem;
+}
+/* section 7 */
+div.section7 {
+    position: relative;
+    max-width: 100%;
+    height: 610px;
+    background-color: #fff;
+}
+div.sec7a {
+    position: absolute;
+    width: 50%;
+    top: 1%;
+    left: 400px;
+    padding: 30px;
+    font-size: 2rem;
+    text-align: center;
+}
+div.sec7b {
+    position: absolute;
+    width: 30%;
+    top: 45%;
+    left: 200px;
+    padding: 30px;
+    font-size: 1.6rem;
+}
+div.sec7c {
+    position: absolute;
+    width: 50%;
+    top: 22%;
+    right: 100px;
+    padding: 30px;
+}
+/* section 8 */
+div.section8 {
+    position: relative;
+    max-width: 100%;
+    height: 480px;
+    background-color: rgba(255, 219, 213, 0.4);
+}
+div.sec8a {
+    position: absolute;
+    width: 50%;
+    top: 5%;
+    left: 200px;
+    padding: 30px;
+}
+div.sec8b {
+    position: absolute;
+    width: 30%;
+    top: 25%;
+    right: 100px;
+    padding: 30px;
+    font-size: 1.6rem;
+}
+/* section 9 */
+div.section9 {
+    position: relative;
+    max-width: 100%;
+    height: 400px;
+    background-color: #fff;
+}
+div.sec9a {
+    position: absolute;
+    width: 50%;
+    top: 1%;
+    left: 400px;
+    padding: 30px;
+    font-size: 2rem;
+    text-align: center;
+}
+table {
+    width: 80%;
+    border-spacing: 30px;
+}
+th {
+    border-bottom: 1px solid #000;
+}
+td {
+    text-align: center;
+}
+td:hover, th:hover {
+    font-size: large;
+}
+div.sec9b {
+    position: absolute;
+    width: 35%;
+    top: 15%;
+    left: 200px;
+    padding: 30px;
+    font-size: 1.6rem;
+}
+div.sec9c {
+    position: absolute;
+    width: 30%;
+    top: 15%;
+    left: 550px;
+    padding: 30px;
+    font-size: 1.6rem;
+}
+div.sec9d {
+    position: absolute;
+    width: 35%;
+    top: 15%;
+    right: 50px;
+    padding: 30px;
+    font-size: 1.6rem;
+}
+/* section 10 */
+div.section10 {
+    position: relative;
+    max-width: 100%;
+    height: 1000px;
+    background-color: #151515;
+    color: #b8b8b8;
+    font-size: 1.6rem;
+}
+ul {
+    list-style: none;
+}
+ul a {
+    text-decoration: none;
+    color: #b8b8b8;
+    padding: 10px;
+    display: block;
+}
+ul a:hover {
+    text-decoration: underline;
+}
+div.sec10a {
+    position: absolute;
+    width: 25%;
+    top: 2%;
+    left: 100px;
+    padding: 30px;
+}
+div.sec10b {
+    position: absolute;
+    width: 25%;
+    top: 6%;
+    left: 400px;
+    padding: 30px;
+}
+div.sec10c {
+    position: absolute;
+    width: 25%;
+    top: 6%;
+    right: 350px;
+    padding: 30px;
+}
+div.sec10d {
+    position: absolute;
+    width: 25%;
+    top: 6%;
+    right: 100px;
+    padding: 30px;
+}
+div.sec10e {
+    position: absolute;
+    width: 25%;
+    top: 27%;
+    left: 100px;
+    padding: 30px;
+}
+div.sec10f {
+    position: absolute;
+    width: 25%;
+    top: 27%;
+    left: 400px;
+    padding: 30px;
+}
+div.sec10g {
+    position: absolute;
+    width: 25%;
+    top: 27%;
+    right: 350px;
+    padding: 30px;
+}
+div.sec10h {
+    position: absolute;
+    width: 25%;
+    top: 27%;
+    right: 50px;
+    padding: 30px;
+}
+div.sec10i {
+    position: absolute;
+    width: 10%;
+    bottom: 1.5%;
+    left: 100px;
+    padding: 30px;
+}
+div.sec10j {
+    position: absolute;
+    bottom: 5%;
+    left: 180px;
+}
+div.sec10j a {
+    color:#b8b8b8;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.sec10j a:hover {
+    text-decoration: underline;
+}
+div.sec10k {
+    position: absolute;
+    bottom: 5%;
+    left: 490px;
+    font-size: 1.3rem;
+}
+div.sec10l {
+    position: absolute;
+    bottom: 5%;
+    right: 450px;
+    font-size: 1.3rem;
+}
+div.sec10m {
+    position: absolute;
+    bottom: 4%;
+    right: 250px;
+}
+.inputsec10m {
+    border-radius: 20px;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-color: #fff;
+    background-color: #fff;
+    text-align: center;
+}
+div.sec10n {
+    position: absolute;
+    bottom: 5%;
+    right: 100px;
+}
+
+
