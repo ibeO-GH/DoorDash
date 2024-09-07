@@ -15,7 +15,7 @@ the use of position absolute and position relative.
 
 ## Screenshot of how it looks
 
-<img src="/screenshots/screenshot1.png" alt="hero section" />
+<img src="/screenshots/screenshot1.png" alt="image" />
     <img src="/screenshots/screenshot2.png" alt="image" />
     <img src="/screenshots/screenshot3.png" alt="image" />
     <img src="/screenshots/screenshot4.png" alt="image" />
